@@ -119,6 +119,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/sap.conf:system/etc/sap.conf
 
 # Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+
 PRODUCT_PACKAGES += \
     fstab.g2 \
     init.g2.rc \
